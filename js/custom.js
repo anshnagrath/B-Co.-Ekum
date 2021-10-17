@@ -69,15 +69,15 @@ var customScripts = {
             });
     }, 
     owlSlider: function () {
-        var owl = $("#owl-demo");
-        owl.owlCarousel();
-        // Custom Navigation Events
-        $(".next").click(function () {
-            owl.trigger('owl.next');
-        })
-        $(".prev").click(function () {
-            owl.trigger('owl.prev');
-        })
+        // var owl = $("#owl-demo");
+        // owl.owlCarousel();
+        // // Custom Navigation Events
+        // $(".next").click(function () {
+        //     owl.trigger('owl.next');
+        // })
+        // $(".prev").click(function () {
+        //     owl.trigger('owl.prev');
+        // })
     },
     bannerHeight: function () {
         var bHeight = $(".banner-container").height();
